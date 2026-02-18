@@ -12,6 +12,14 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
+app.use(cors({
+  origin: [
+    'https://production-system07.netlify.app/',
+    'http://localhost:5500',
+    'http://127.0.0.1:5500'
+  ],
+  credentials: true
+}));
 
 // ==================== MONGOOSE MODELS ====================
 
