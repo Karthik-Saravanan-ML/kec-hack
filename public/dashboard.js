@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://kec-hack.onrender.com/api';
 let token = localStorage.getItem('token');
 let user = JSON.parse(localStorage.getItem('user'));
 let charts = {};

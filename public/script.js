@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://kec-hack.onrender.com/api';
 
 // DOM Elements
 const loginForm = document.getElementById('loginForm');
