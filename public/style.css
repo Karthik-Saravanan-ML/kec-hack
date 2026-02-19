@@ -895,111 +895,6 @@ table tbody tr:last-child td {
     to { transform: translateX(0); opacity: 1; }
 }
 
-/* ==================== DATA ANALYSIS SECTION ==================== */
-
-.analysis-section {
-    background-color: var(--bg-card);
-    border-radius: 20px;
-    box-shadow: var(--card-shadow);
-    border: 1px solid var(--border);
-    padding: 28px;
-    margin-top: 30px;
-}
-
-.analysis-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 14px;
-    margin-bottom: 20px;
-}
-
-.analysis-header h3 {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--text-primary);
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.analysis-header h3 i {
-    color: var(--primary);
-    font-size: 20px;
-}
-
-.analysis-actions {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.analysis-actions .btn {
-    width: auto;
-}
-
-.btn-whatsapp {
-    background-color: #25D366;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 12px;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    transition: background-color 0.2s, transform 0.1s, box-shadow 0.2s;
-    width: auto;
-}
-
-.btn-whatsapp:hover {
-    background-color: #1ebe5d;
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(37,211,102,0.35);
-}
-
-.analysis-loading-inner {
-    text-align: center;
-    padding: 40px 20px;
-    color: var(--text-secondary);
-}
-
-.analysis-loading-inner i {
-    color: var(--primary);
-    margin-bottom: 14px;
-    display: block;
-}
-
-.analysis-loading-inner p {
-    font-size: 15px;
-    font-weight: 500;
-    margin-top: 10px;
-}
-
-#analysisOutput {
-    margin-top: 10px;
-}
-
-#analysisText {
-    background-color: var(--bg-body);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 24px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 13px;
-    line-height: 1.8;
-    white-space: pre-wrap;
-    word-break: break-word;
-    color: var(--text-primary);
-    max-height: 520px;
-    overflow-y: auto;
-}
-
 /* ==================== RESPONSIVE ==================== */
 
 @media (max-width: 1024px) {
@@ -1043,18 +938,6 @@ table tbody tr:last-child td {
     }
     .brand-content {
         max-width: 100%;
-    }
-    .analysis-header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .analysis-actions {
-        width: 100%;
-    }
-    .analysis-actions .btn,
-    .analysis-actions .btn-whatsapp {
-        width: 100%;
-        justify-content: center;
     }
 }
 
